@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-Create a "config/config.env" file and add tghe following:
+Inside the "config/config.env" file add the following:
 
 - NODE_ENV = development;
 - MONGO_URI = ######
@@ -13,15 +13,8 @@ Create a "config/config.env" file and add tghe following:
 
 npm install
 
-# Serve on localhost:6000
+# Serve on localhost:8000
 
 npm run dev (nodemon)
 or
 npm start
-
-# Routes
-
-GET /api/v1/stores # Get Stores
-
-POST /api/v1/stores # Add Store
-body { storeId: "0001", address: "10 main st Paarl, South Africa" }

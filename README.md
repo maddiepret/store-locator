@@ -1,4 +1,4 @@
-# store-locator# Store Locator
+# Store Locator
 
 ## Quick Start
 
